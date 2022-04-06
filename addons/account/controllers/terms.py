@@ -4,7 +4,6 @@
 from odoo import http, _
 from odoo.http import request
 
-
 class TermsController(http.Controller):
 
     @http.route('/terms', type='http', auth='public', website=True, sitemap=True)
